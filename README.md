@@ -14,13 +14,17 @@
 ![image](https://github.com/shiyiwei7/Huawei-CE-switch-interface-UP-down-statistics/assets/153582486/fb09297b-bdb8-4bb0-a483-42a5d1d9979a)
 
 原理：控制台登录指定交换后，使用命令输出接口up/down状态
-      ![image](https://github.com/shiyiwei7/Huawei-CE-switch-interface-UP-down-statistics/assets/153582486/b8a75e40-4b7d-4420-950b-919e7502fa9e)
+      ![image](https://github.com/shiyiwei7/Huawei-CE-switch-interface-UP-down-statistics/assets/153582486/09a6f7a4-db6d-48f7-a132-ed89df4a14b6)
+
 
       函数分析，输出结果为UP，时候upport端口+1，依次循环，逐个端口查询状态
-      ![image](https://github.com/shiyiwei7/Huawei-CE-switch-interface-UP-down-statistics/assets/153582486/3c2f6957-17fe-4b43-918d-9d2ab6ad863a)
+      ![image](https://github.com/shiyiwei7/Huawei-CE-switch-interface-UP-down-statistics/assets/153582486/a422b85e-d098-4c29-8539-761d6237feee)
+
 
       设备定义：定义爬取端口信息的设备IP地址
-      ![image](https://github.com/shiyiwei7/Huawei-CE-switch-interface-UP-down-statistics/assets/153582486/b8371df6-806a-431d-80d1-401132db4ab4)
+      ![image](https://github.com/shiyiwei7/Huawei-CE-switch-interface-UP-down-statistics/assets/153582486/62bf9c93-2e52-420b-8776-30cbebdd76b2)
+
+
 
 效果展示：
-![Uploading image.png…]()
+     ![image](https://github.com/shiyiwei7/Huawei-CE-switch-interface-UP-down-statistics/assets/153582486/aae56240-ec4d-43b9-a2b1-16ac444274b0)
