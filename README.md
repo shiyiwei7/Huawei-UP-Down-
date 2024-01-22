@@ -1,5 +1,5 @@
-![image](https://github.com/shiyiwei7/Huawei-CE-switch-interface-UP-down-statistics/assets/153582486/2cdf2d23-e5bd-41b6-8a36-3f74caf14f52)华为交换机
-
+![image](https://github.com/shiyiwei7/Huawei-CE-switch-interface-UP-down-statistics/assets/153582486/2cdf2d23-e5bd-41b6-8a36-3f74caf14f52)
+华为交换机
 型号：CE6856
 版本  FM6857-48S6CQ-EI
 图片：![image](https://github.com/shiyiwei7/Huawei-CE-switch-interface-UP-down-statistics/assets/153582486/6e3f4df3-f43e-4e5d-a21b-fe60c6a0501b)
