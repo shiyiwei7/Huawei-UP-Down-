@@ -2,7 +2,8 @@
 华为交换机
 型号：CE6856
 版本  FM6857-48S6CQ-EI
-图片：![image](https://github.com/shiyiwei7/Huawei-CE-switch-interface-UP-down-statistics/assets/153582486/6e3f4df3-f43e-4e5d-a21b-fe60c6a0501b)
+图片：
+![image](https://github.com/shiyiwei7/Huawei-CE-switch-interface-UP-down-statistics/assets/153582486/6e3f4df3-f43e-4e5d-a21b-fe60c6a0501b)
 ![image](https://github.com/shiyiwei7/Huawei-CE-switch-interface-UP-down-statistics/assets/153582486/2cdf2d23-e5bd-41b6-8a36-3f74caf14f52)
 背景：需要统计下设备接口的UP/Down信息
 
@@ -14,6 +15,7 @@
 ![image](https://github.com/shiyiwei7/Huawei-CE-switch-interface-UP-down-statistics/assets/153582486/fb09297b-bdb8-4bb0-a483-42a5d1d9979a)
 
 原理：控制台登录指定交换后，使用命令输出接口up/down状态
+
     for i in range(1, 48):       /48指循环查询1-48口的接口状态      
         interface = f"G0/0/{i}"            /注：当接口为同一类型设备那么接口描述相同，如果类型不同需要修改描述存在40G、10G接口
         command.send(f"display interface {interface}\n")
